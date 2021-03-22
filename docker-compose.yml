@@ -1,0 +1,17 @@
+version: "3"
+services:
+  streamlit-app:
+    image: tlary94/streamlitfastapi
+    container_name: streamlitapp
+    ports:
+      - 8501:8501
+    working_dir: /usr/src/app
+    
+    
+  data-api:
+    image: tlary94/titanicapi
+    container_name: titanicapi
+    ports:
+      - 8000:8000
+    working_dir: /usr/src/api
+  
