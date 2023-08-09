@@ -1,5 +1,5 @@
 pydantic==1.8.1
 pandas==1.2.3
-streamlit==0.78.0
+streamlit
 requests==2.25.1
 protobuf~=3.19.0
