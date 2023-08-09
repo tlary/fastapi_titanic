@@ -1,5 +1,5 @@
 # reduced python as base image
-FROM python:3.8-slim-buster 
+FROM python:3.9
 
 # set a directory for the app
 WORKDIR /usr/src/app 

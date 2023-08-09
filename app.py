@@ -44,11 +44,13 @@ data = {"Age": Age,
 dataJSON = json.dumps(data) # create json object from dict
 
 # preprocess data by making post request to the API
+# << NEED TO CHANGE URL WHILE PUBLISHING >>
 r = requests.post(url = "https://fastapi-forked.fly.dev/preprocess/", data=dataJSON)
 preprocessedData = r.json()
 preprocessedJSON = json.dumps(preprocessedData)
 
 # make prediction by making post request to the API
+# << NEED TO CHANGE URL WHILE PUBLISHING >>
 pred = requests.post(url = "https://fastapi-forked.fly.dev/predict/", data=preprocessedJSON)
 # display survival probability
 st.image("./static/titanic.jpg", use_column_width=True)

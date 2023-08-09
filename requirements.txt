@@ -1,5 +1,5 @@
-pydantic==1.8.1
-pandas==1.2.3
+pydantic
+pandas
 streamlit
-requests==2.25.1
+requests
 protobuf~=3.19.0
