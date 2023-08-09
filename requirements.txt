@@ -1,0 +1,5 @@
+pydantic
+pandas
+streamlit
+requests
+protobuf~=3.19.0
